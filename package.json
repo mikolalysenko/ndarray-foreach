@@ -1,0 +1,34 @@
+{
+  "name": "ndarray-foreach",
+  "version": "1.0.0",
+  "description": "Scans an ndarray",
+  "main": "foreach.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cwise": "^1.0.10"
+  },
+  "devDependencies": {
+    "ndarray": "^1.0.18",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "tape test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikolalysenko/ndarray-foreach.git"
+  },
+  "keywords": [
+    "ndarray",
+    "foreach",
+    "scan"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/ndarray-foreach/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/ndarray-foreach#readme"
+}
